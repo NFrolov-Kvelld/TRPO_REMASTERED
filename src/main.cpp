@@ -1,4 +1,4 @@
-#include<tictactoe.cpp>
+#include<tictactoe.cpp>//Тут все биг
 int main() {
     // Creating game object
     TicTacToe game;
