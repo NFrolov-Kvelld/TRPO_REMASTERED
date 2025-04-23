@@ -1,0 +1,5 @@
+if(EXISTS "/home/kvelld/rem/build/tests/tictactoe_tests[1]_tests.cmake")
+  include("/home/kvelld/rem/build/tests/tictactoe_tests[1]_tests.cmake")
+else()
+  add_test(tictactoe_tests_NOT_BUILT tictactoe_tests_NOT_BUILT)
+endif()

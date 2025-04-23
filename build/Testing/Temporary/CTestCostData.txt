@@ -1,0 +1,16 @@
+PlayerTest.ConstructorAndGetters 6 0.00052573
+BoardTest.Initialization 6 0.00033282
+BoardTest.MakeMoveAndWinCheck 6 0.000366935
+BoardTest.FullBoardCheck 6 0.000414281
+GameTest.PlayerSwitch 6 0.000432725
+PlayerTest.DefaultSymbolIsX 3 0.000584066
+PlayerTest.CanChangeSymbol 3 0.00047321
+PlayerTest.NameNotEmpty 0 0
+BoardTest.InvalidMoveOutsideBounds 3 0.000963717
+BoardTest.CannotOverwriteCell 3 0.000640451
+BoardTest.ClearBoardFunctionality 3 0.000601651
+GameTest.InitialCurrentPlayerIsX 3 0.000782195
+GameTest.SwitchTurnChangesPlayer 3 0.000753381
+ErrorTest.InvalidPlayerSymbol 3 0.000945752
+ErrorTest.BoardStateAfterInvalidMove 3 0.000619503
+---
