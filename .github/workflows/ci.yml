@@ -30,3 +30,21 @@ jobs:
     - name: Run tests
       working-directory: ./build
       run: ctest --output-on-failure
+
+  clang-build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install Clang
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y clang clang-tidy clang-format
+    - name: Format check
+      run: |
+        find src tests -name '*.cpp' -o -name '*.h' | xargs clang-format --dry-run --Werror
+    - name: Build with Clang
+      run: |
+        export CC=clang
+        export CXX=clang++
+        cmake -S . -B build-clang -DENABLE_CLANG_TIDY=ON
+        cmake --build build-clang

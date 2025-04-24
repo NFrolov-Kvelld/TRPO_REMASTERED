@@ -1,10 +1,10 @@
-Start testing: Apr 23 13:36 +07
+Start testing: Apr 24 21:54 +07
 ----------------------------------------------------------
 1/14 Testing: PlayerTest.ConstructorAndGetters
 1/14 Test: PlayerTest.ConstructorAndGetters
 Command: "/home/kvelld/rem/build/tests/tictactoe_tests" "--gtest_filter=PlayerTest.ConstructorAndGetters" "--gtest_also_run_disabled_tests"
 Directory: /home/kvelld/rem/build/tests
-"PlayerTest.ConstructorAndGetters" start time: Apr 23 13:36 +07
+"PlayerTest.ConstructorAndGetters" start time: Apr 24 21:54 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PlayerTest.ConstructorAndGetters
@@ -22,7 +22,7 @@ Note: Google Test filter = PlayerTest.ConstructorAndGetters
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"PlayerTest.ConstructorAndGetters" end time: Apr 23 13:36 +07
+"PlayerTest.ConstructorAndGetters" end time: Apr 24 21:54 +07
 "PlayerTest.ConstructorAndGetters" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -30,7 +30,7 @@ Test Passed.
 2/14 Test: PlayerTest.DefaultSymbolIsX
 Command: "/home/kvelld/rem/build/tests/tictactoe_tests" "--gtest_filter=PlayerTest.DefaultSymbolIsX" "--gtest_also_run_disabled_tests"
 Directory: /home/kvelld/rem/build/tests
-"PlayerTest.DefaultSymbolIsX" start time: Apr 23 13:36 +07
+"PlayerTest.DefaultSymbolIsX" start time: Apr 24 21:54 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PlayerTest.DefaultSymbolIsX
@@ -48,7 +48,7 @@ Note: Google Test filter = PlayerTest.DefaultSymbolIsX
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"PlayerTest.DefaultSymbolIsX" end time: Apr 23 13:36 +07
+"PlayerTest.DefaultSymbolIsX" end time: Apr 24 21:54 +07
 "PlayerTest.DefaultSymbolIsX" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -56,7 +56,7 @@ Test Passed.
 3/14 Test: PlayerTest.CanChangeSymbol
 Command: "/home/kvelld/rem/build/tests/tictactoe_tests" "--gtest_filter=PlayerTest.CanChangeSymbol" "--gtest_also_run_disabled_tests"
 Directory: /home/kvelld/rem/build/tests
-"PlayerTest.CanChangeSymbol" start time: Apr 23 13:36 +07
+"PlayerTest.CanChangeSymbol" start time: Apr 24 21:54 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PlayerTest.CanChangeSymbol
@@ -74,7 +74,7 @@ Note: Google Test filter = PlayerTest.CanChangeSymbol
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"PlayerTest.CanChangeSymbol" end time: Apr 23 13:36 +07
+"PlayerTest.CanChangeSymbol" end time: Apr 24 21:54 +07
 "PlayerTest.CanChangeSymbol" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -82,7 +82,7 @@ Test Passed.
 4/14 Test: BoardTest.Initialization
 Command: "/home/kvelld/rem/build/tests/tictactoe_tests" "--gtest_filter=BoardTest.Initialization" "--gtest_also_run_disabled_tests"
 Directory: /home/kvelld/rem/build/tests
-"BoardTest.Initialization" start time: Apr 23 13:36 +07
+"BoardTest.Initialization" start time: Apr 24 21:54 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BoardTest.Initialization
@@ -100,7 +100,7 @@ Note: Google Test filter = BoardTest.Initialization
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BoardTest.Initialization" end time: Apr 23 13:36 +07
+"BoardTest.Initialization" end time: Apr 24 21:54 +07
 "BoardTest.Initialization" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -108,7 +108,7 @@ Test Passed.
 5/14 Test: BoardTest.MakeMoveAndWinCheck
 Command: "/home/kvelld/rem/build/tests/tictactoe_tests" "--gtest_filter=BoardTest.MakeMoveAndWinCheck" "--gtest_also_run_disabled_tests"
 Directory: /home/kvelld/rem/build/tests
-"BoardTest.MakeMoveAndWinCheck" start time: Apr 23 13:36 +07
+"BoardTest.MakeMoveAndWinCheck" start time: Apr 24 21:54 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BoardTest.MakeMoveAndWinCheck
@@ -126,7 +126,7 @@ Note: Google Test filter = BoardTest.MakeMoveAndWinCheck
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BoardTest.MakeMoveAndWinCheck" end time: Apr 23 13:36 +07
+"BoardTest.MakeMoveAndWinCheck" end time: Apr 24 21:54 +07
 "BoardTest.MakeMoveAndWinCheck" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -134,7 +134,7 @@ Test Passed.
 6/14 Test: BoardTest.FullBoardCheck
 Command: "/home/kvelld/rem/build/tests/tictactoe_tests" "--gtest_filter=BoardTest.FullBoardCheck" "--gtest_also_run_disabled_tests"
 Directory: /home/kvelld/rem/build/tests
-"BoardTest.FullBoardCheck" start time: Apr 23 13:36 +07
+"BoardTest.FullBoardCheck" start time: Apr 24 21:54 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BoardTest.FullBoardCheck
@@ -152,7 +152,7 @@ Note: Google Test filter = BoardTest.FullBoardCheck
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BoardTest.FullBoardCheck" end time: Apr 23 13:36 +07
+"BoardTest.FullBoardCheck" end time: Apr 24 21:54 +07
 "BoardTest.FullBoardCheck" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -160,7 +160,7 @@ Test Passed.
 7/14 Test: BoardTest.InvalidMoveOutsideBounds
 Command: "/home/kvelld/rem/build/tests/tictactoe_tests" "--gtest_filter=BoardTest.InvalidMoveOutsideBounds" "--gtest_also_run_disabled_tests"
 Directory: /home/kvelld/rem/build/tests
-"BoardTest.InvalidMoveOutsideBounds" start time: Apr 23 13:36 +07
+"BoardTest.InvalidMoveOutsideBounds" start time: Apr 24 21:54 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BoardTest.InvalidMoveOutsideBounds
@@ -178,7 +178,7 @@ Note: Google Test filter = BoardTest.InvalidMoveOutsideBounds
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BoardTest.InvalidMoveOutsideBounds" end time: Apr 23 13:36 +07
+"BoardTest.InvalidMoveOutsideBounds" end time: Apr 24 21:54 +07
 "BoardTest.InvalidMoveOutsideBounds" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -186,7 +186,7 @@ Test Passed.
 8/14 Test: BoardTest.CannotOverwriteCell
 Command: "/home/kvelld/rem/build/tests/tictactoe_tests" "--gtest_filter=BoardTest.CannotOverwriteCell" "--gtest_also_run_disabled_tests"
 Directory: /home/kvelld/rem/build/tests
-"BoardTest.CannotOverwriteCell" start time: Apr 23 13:36 +07
+"BoardTest.CannotOverwriteCell" start time: Apr 24 21:54 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BoardTest.CannotOverwriteCell
@@ -204,7 +204,7 @@ Note: Google Test filter = BoardTest.CannotOverwriteCell
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BoardTest.CannotOverwriteCell" end time: Apr 23 13:36 +07
+"BoardTest.CannotOverwriteCell" end time: Apr 24 21:54 +07
 "BoardTest.CannotOverwriteCell" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -212,7 +212,7 @@ Test Passed.
 9/14 Test: BoardTest.ClearBoardFunctionality
 Command: "/home/kvelld/rem/build/tests/tictactoe_tests" "--gtest_filter=BoardTest.ClearBoardFunctionality" "--gtest_also_run_disabled_tests"
 Directory: /home/kvelld/rem/build/tests
-"BoardTest.ClearBoardFunctionality" start time: Apr 23 13:36 +07
+"BoardTest.ClearBoardFunctionality" start time: Apr 24 21:54 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BoardTest.ClearBoardFunctionality
@@ -230,7 +230,7 @@ Note: Google Test filter = BoardTest.ClearBoardFunctionality
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BoardTest.ClearBoardFunctionality" end time: Apr 23 13:36 +07
+"BoardTest.ClearBoardFunctionality" end time: Apr 24 21:54 +07
 "BoardTest.ClearBoardFunctionality" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -238,7 +238,7 @@ Test Passed.
 10/14 Test: GameTest.PlayerSwitch
 Command: "/home/kvelld/rem/build/tests/tictactoe_tests" "--gtest_filter=GameTest.PlayerSwitch" "--gtest_also_run_disabled_tests"
 Directory: /home/kvelld/rem/build/tests
-"GameTest.PlayerSwitch" start time: Apr 23 13:36 +07
+"GameTest.PlayerSwitch" start time: Apr 24 21:54 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = GameTest.PlayerSwitch
@@ -256,7 +256,7 @@ Note: Google Test filter = GameTest.PlayerSwitch
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"GameTest.PlayerSwitch" end time: Apr 23 13:36 +07
+"GameTest.PlayerSwitch" end time: Apr 24 21:54 +07
 "GameTest.PlayerSwitch" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -264,7 +264,7 @@ Test Passed.
 11/14 Test: GameTest.InitialCurrentPlayerIsX
 Command: "/home/kvelld/rem/build/tests/tictactoe_tests" "--gtest_filter=GameTest.InitialCurrentPlayerIsX" "--gtest_also_run_disabled_tests"
 Directory: /home/kvelld/rem/build/tests
-"GameTest.InitialCurrentPlayerIsX" start time: Apr 23 13:36 +07
+"GameTest.InitialCurrentPlayerIsX" start time: Apr 24 21:54 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = GameTest.InitialCurrentPlayerIsX
@@ -282,7 +282,7 @@ Note: Google Test filter = GameTest.InitialCurrentPlayerIsX
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"GameTest.InitialCurrentPlayerIsX" end time: Apr 23 13:36 +07
+"GameTest.InitialCurrentPlayerIsX" end time: Apr 24 21:54 +07
 "GameTest.InitialCurrentPlayerIsX" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -290,7 +290,7 @@ Test Passed.
 12/14 Test: GameTest.SwitchTurnChangesPlayer
 Command: "/home/kvelld/rem/build/tests/tictactoe_tests" "--gtest_filter=GameTest.SwitchTurnChangesPlayer" "--gtest_also_run_disabled_tests"
 Directory: /home/kvelld/rem/build/tests
-"GameTest.SwitchTurnChangesPlayer" start time: Apr 23 13:36 +07
+"GameTest.SwitchTurnChangesPlayer" start time: Apr 24 21:54 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = GameTest.SwitchTurnChangesPlayer
@@ -308,7 +308,7 @@ Note: Google Test filter = GameTest.SwitchTurnChangesPlayer
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"GameTest.SwitchTurnChangesPlayer" end time: Apr 23 13:36 +07
+"GameTest.SwitchTurnChangesPlayer" end time: Apr 24 21:54 +07
 "GameTest.SwitchTurnChangesPlayer" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -316,7 +316,7 @@ Test Passed.
 13/14 Test: ErrorTest.InvalidPlayerSymbol
 Command: "/home/kvelld/rem/build/tests/tictactoe_tests" "--gtest_filter=ErrorTest.InvalidPlayerSymbol" "--gtest_also_run_disabled_tests"
 Directory: /home/kvelld/rem/build/tests
-"ErrorTest.InvalidPlayerSymbol" start time: Apr 23 13:36 +07
+"ErrorTest.InvalidPlayerSymbol" start time: Apr 24 21:54 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ErrorTest.InvalidPlayerSymbol
@@ -334,7 +334,7 @@ Note: Google Test filter = ErrorTest.InvalidPlayerSymbol
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ErrorTest.InvalidPlayerSymbol" end time: Apr 23 13:36 +07
+"ErrorTest.InvalidPlayerSymbol" end time: Apr 24 21:54 +07
 "ErrorTest.InvalidPlayerSymbol" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -342,7 +342,7 @@ Test Passed.
 14/14 Test: ErrorTest.BoardStateAfterInvalidMove
 Command: "/home/kvelld/rem/build/tests/tictactoe_tests" "--gtest_filter=ErrorTest.BoardStateAfterInvalidMove" "--gtest_also_run_disabled_tests"
 Directory: /home/kvelld/rem/build/tests
-"ErrorTest.BoardStateAfterInvalidMove" start time: Apr 23 13:36 +07
+"ErrorTest.BoardStateAfterInvalidMove" start time: Apr 24 21:54 +07
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ErrorTest.BoardStateAfterInvalidMove
@@ -360,8 +360,8 @@ Note: Google Test filter = ErrorTest.BoardStateAfterInvalidMove
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ErrorTest.BoardStateAfterInvalidMove" end time: Apr 23 13:36 +07
+"ErrorTest.BoardStateAfterInvalidMove" end time: Apr 24 21:54 +07
 "ErrorTest.BoardStateAfterInvalidMove" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 23 13:36 +07
+End testing: Apr 24 21:54 +07
