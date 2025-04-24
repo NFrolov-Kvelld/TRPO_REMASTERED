@@ -1,9 +1,7 @@
-#include<tictactoe.cpp>//Тут все биг
+#include<tictactoe.cpp>//Тут все хорошо
+
 int main() {
-    // Creating game object
     TicTacToe game;
-    
-    // Starting the game
     game.play();
     return 0;
 }

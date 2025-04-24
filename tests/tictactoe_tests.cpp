@@ -26,25 +26,25 @@ TEST(BoardTest, Initialization) {
 TEST(BoardTest, MakeMoveAndWinCheck) {
     Board board;
     
-    // Test valid moves
+    // Верные ходы
     EXPECT_TRUE(board.isValidMove(0, 0));
     board.makeMove(0, 0, 'X');
     EXPECT_FALSE(board.isValidMove(0, 0));
     EXPECT_EQ(board.getFilledCellsCount(), 1);
     
-    // Test row win
+    // Крестики выйграли
     board.makeMove(0, 1, 'X');
     board.makeMove(0, 2, 'X');
     EXPECT_TRUE(board.checkWin('X'));
     
-    // Test column win
+    // Проверка линий
     Board board2;
     board2.makeMove(0, 1, 'O');
     board2.makeMove(1, 1, 'O');
     board2.makeMove(2, 1, 'O');
     EXPECT_TRUE(board2.checkWin('O'));
     
-    // Test diagonal win
+    // Проверка диагонали
     Board board3;
     board3.makeMove(0, 0, 'X');
     board3.makeMove(1, 1, 'X');
@@ -116,10 +116,6 @@ TEST(BoardTest, ClearBoardFunctionality) {
     }
     // Проверяем, что доска полная
     EXPECT_TRUE(board.isFull());
-    
-    // Здесь нужно добавить метод clear() в класс Board:
-    // board.clear();
-    // EXPECT_FALSE(board.isFull());
 }
 
 TEST(GameTest, InitialCurrentPlayerIsX) {
@@ -136,7 +132,6 @@ TEST(GameTest, SwitchTurnChangesPlayer) {
 }
 
 TEST(ErrorTest, InvalidPlayerSymbol) {
-    // Проверяем обработку недопустимых символов
     // Player p('Z', "Invalid"); // Должен ли это вызывать ошибку?
     // EXPECT_NE(p.getSymbol(), 'Z');
 }
@@ -146,7 +141,7 @@ TEST(ErrorTest, BoardStateAfterInvalidMove) {
     board.makeMove(0, 0, 'X');
     int initialFilled = board.getFilledCellsCount();
     
-    // Пытаемся сделать недопустимый ход
+    //недопустимый ход
     board.makeMove(0, 0, 'O');
     EXPECT_EQ(board.getFilledCellsCount(), initialFilled);
 }
