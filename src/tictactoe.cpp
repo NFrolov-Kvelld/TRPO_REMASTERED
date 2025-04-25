@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 
-// Player class to represent a player in game
 class Player
 {
   private:
@@ -10,23 +9,20 @@ class Player
     string name;
 
   public:
-    // Constructor
+  
     Player(char sym = 'X', string n = "Player X") : symbol(sym), name(n) {}
 
-    // Getter methods
     char getSymbol() const { return symbol; }
     string getName() const { return name; }
 };
 
-// Board class to manage game board
 class Board
 {
   private:
     char grid[3][3];
-    int filledCells; // Counter for filled cells
+    int filledCells; 
 
   public:
-    // Constructor to initialize the board
     Board() : filledCells(0)
     {
         for (int i = 0; i < 3; i++)
@@ -38,7 +34,7 @@ class Board
         }
     }
 
-    // Method to display the board
+    
     void drawBoard() const
     {
         cout << "-------------" << endl;
@@ -53,27 +49,24 @@ class Board
         }
     }
 
-    // Method to check if a move is valid
     bool isValidMove(int row, int col) const
     {
         return (row >= 0 && row < 3 && col >= 0 && col < 3 &&
                 grid[row][col] == ' ');
     }
 
-    // Method to make a move
     void makeMove(int row, int col, char symbol)
     {
         if (isValidMove(row, col))
         {
             grid[row][col] = symbol;
-            filledCells++; // Increment counter when a cell is filled
+            filledCells++; 
         }
     }
 
-    // Method to check for a win
     bool checkWin(char symbol) const
     {
-        // Check rows
+      
         for (int i = 0; i < 3; i++)
         {
             if (grid[i][0] == symbol && grid[i][1] == symbol &&
@@ -83,7 +76,6 @@ class Board
             }
         }
 
-        // Check columns
         for (int i = 0; i < 3; i++)
         {
             if (grid[0][i] == symbol && grid[1][i] == symbol &&
@@ -93,7 +85,6 @@ class Board
             }
         }
 
-        // Check diagonals
         if (grid[0][0] == symbol && grid[1][1] == symbol &&
             grid[2][2] == symbol)
         {
@@ -108,14 +99,11 @@ class Board
         return false;
     }
 
-    // Method to check if board is full using the counter
     bool isFull() const { return filledCells == 9; }
 
-    // Method to get the number of filled cells
     int getFilledCellsCount() const { return filledCells; }
 };
 
-// Game class to manage the game logic
 class TicTacToe
 {
   private:
@@ -124,20 +112,17 @@ class TicTacToe
     int currentPlayerIndex;
 
   public:
-    // Constructor
+
     TicTacToe() : currentPlayerIndex(0)
     {
         players[0] = Player('X', "Player X");
         players[1] = Player('O', "Player O");
     }
 
-    // Method to get the current player
     Player &getCurrentPlayer() { return players[currentPlayerIndex]; }
 
-    // Method to switch turns
     void switchTurn() { currentPlayerIndex = (currentPlayerIndex + 1) % 2; }
 
-    // Method to play the game
     void play()
     {
         int row, col;
@@ -145,12 +130,10 @@ class TicTacToe
 
         while (!board.isFull())
         {
-            // Display the board
             board.drawBoard();
 
             Player &currentPlayer = getCurrentPlayer();
 
-            // Get valid input
             while (true)
             {
                 cout << currentPlayer.getName() << " ("
@@ -158,7 +141,7 @@ class TicTacToe
                      << "), enter row (1-3) and column (1-3): ";
                 cin >> row >> col;
                 row--;
-                col--; // Convert to 0-indexed
+                col--; 
 
                 if (board.isValidMove(row, col))
                 {
@@ -170,10 +153,8 @@ class TicTacToe
                 }
             }
 
-            // Make move
             board.makeMove(row, col, currentPlayer.getSymbol());
 
-            // Check for win
             if (board.checkWin(currentPlayer.getSymbol()))
             {
                 board.drawBoard();
@@ -181,11 +162,9 @@ class TicTacToe
                 return;
             }
 
-            // Switch turns
             switchTurn();
         }
 
-        // Game ended in a draw
         board.drawBoard();
         cout << "It's a draw!" << endl;
     }
